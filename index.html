@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom Chocolate Pack</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Build Your Custom Chocolate Pack</h1>
+    
+    <div class="chocolates">
+        <div class="chocolate">
+            <label for="darkChocolate">Dark Chocolate</label>
+            <input type="number" id="darkChocolate" value="0" min="0" max="8">
+        </div>
+        
+        <div class="chocolate">
+            <label for="milkChocolate">Milk Chocolate</label>
+            <input type="number" id="milkChocolate" value="0" min="0" max="8">
+        </div>
+        
+        <!-- Add more chocolate options here -->
+    </div>
+
+    <p>Total Price: <span id="totalPrice">$0.00</span></p>
+
+    <script src="index.js"></script>
+</body>
+</html>
